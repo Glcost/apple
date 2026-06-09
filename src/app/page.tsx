@@ -13,7 +13,7 @@ export default function Home() {
      <div className="flex flex-col justify-center items-center gap-3 w-[90%] h-[80%] rounded-3xl ">
 
         <div className="flex flex-col justify-center items-center gap-4 ">
-          <p className="text-black text-5xl font-medium">Iphone Air</p>
+          <p className="text-black text-5xl font-medium">iPhone Air</p>
           <p className="text-neutral-800 font-light">Conheça a nova geração do iPhone</p>
         </div>
 
@@ -49,8 +49,8 @@ export default function Home() {
         </div>
 
         <div className="w-xs flex  justify-around ">
-          <button className="bg-neutral-200 text-black rounded-2xl w-36 h-10 transition-all font-light duration-800 hover:bg-black border hover:text-neutral-100   ">Learn more</button>
-          <button className="bg-black text-neutral-100 border rounded-2xl w-36 h-10 transition-all font-light duration-800 hover:bg-neutral-200  hover:text-black ">Buy</button>
+          <button className="bg-neutral-200 text-black rounded-2xl w-36 h-10 transition-all font-light duration-800 hover:bg-black hover:text-neutral-100   ">Learn more</button>
+          <button className="bg-black text-neutral-100 rounded-2xl w-36 h-10 transition-all font-light duration-800 hover:bg-neutral-200  hover:text-black ">Buy</button>
         </div>
 
         </div>

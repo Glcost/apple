@@ -23,7 +23,7 @@ export default function BannerCarrossel() {
                         {produtos.map((produtos) => (
                             <CarouselItem 
                                 key={produtos.id} 
-                                className="pl-4 basis-full sm:basis-1/2 md:basis-1/3 flex justify-center"
+                                className=" basis-full sm:basis-1/2 md:basis-1/3 flex justify-center"
                             >
                                 {/* O w-full h-full garante que todos os cards fiquem alinhados perfeitamente */}
                                 <div className="p-1 w-full h-full">

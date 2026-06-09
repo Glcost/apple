@@ -30,7 +30,7 @@ export default function Header() {
         <Link href="/ipad" className="text-xs font-normal text-[#f5f5f7] opacity-80 hover:opacity-100 transition-opacity">
           iPad
         </Link>
-        <Link href="/loja" className="text-xs font-normal text-[#f5f5f7] opacity-80 hover:opacity-100 transition-opacity">
+        <Link href="/iphones" className="text-xs font-normal text-[#f5f5f7] opacity-80 hover:opacity-100 transition-opacity">
           iPhone
         </Link>
         <Link href="/watch" className="text-xs font-normal text-[#f5f5f7] opacity-80 hover:opacity-100 transition-opacity">
