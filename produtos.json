@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "iPhone 16",
+    "description": "Tela Super Retina XDR, câmera dupla avançada e bateria de longa duração para uso diário e profissional.",
+    "price": 6499.00,
+    "imageSrc": "/produtos/iphone_16.jpg",
+    "destaque": true
+  },
+  {
+    "id": 2,
+    "title": "iPhone 17",
+    "description": "Desempenho turbo com A18 Bionic, design elegante e fotografia computacional aprimorada.",
+    "price": 7299.00,
+    "imageSrc": "/produtos/iphone_17.jpg",
+    "destaque": false
+  },
+  {
+    "id": 3,
+    "title": "iPhone 17e",
+    "description": "Modelo compacto com câmera inteligente, acabamento moderno e excelente custo-benefício.",
+    "price": 5899.00,
+    "imageSrc": "/produtos/iphone_17e.jpg",
+    "destaque": false
+  },
+  {
+    "id": 4,
+    "title": "iPhone 17 Pro",
+    "description": "Tela ProMotion 120Hz, três câmeras profissionais e performance de ponta para criar sem limites.",
+    "price": 9299.00,
+    "imageSrc": "/produtos/iphone_17pro.jpg",
+    "destaque": true
+  },
+  {
+    "id": 5,
+    "title": "iPhone Air",
+    "description": "Leve, fino e potente, com bateria duradoura e acabamento fosco premium para quem busca mobilidade.",
+    "price": 5299.00,
+    "imageSrc": "/produtos/iphone_air.jpg",
+    "destaque": false
+  }
+]
