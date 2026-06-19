@@ -8,8 +8,6 @@ import {
     Carousel,
     CarouselContent,
     CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
 } from "@/components/ui/carousel"
 
 const carrosselImagens = [
@@ -21,12 +19,12 @@ const carrosselImagens = [
 
 export default function BannerCarrossel() {
 
-    const plugin = React.useRef(
+    const [plugin] = React.useState(() => 
         Autoplay({ delay: 5000, stopOnInteraction: false})
     )
     return (
        <section className="w-full bg-black flex justify-center">
-        <Carousel  className="w-full  relative"  plugins={[plugin.current]}>
+        <Carousel  className="w-full  relative"  plugins={[plugin]}>
             <CarouselContent>
                 {carrosselImagens.map((imagem,index)=>(
                     <CarouselItem key={index}>

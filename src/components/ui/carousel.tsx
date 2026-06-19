@@ -95,7 +95,12 @@ function Carousel({
 
   React.useEffect(() => {
     if (!api) return
-    onSelect(api)
+    
+    // Defer the initial onSelect to avoid setState in effect warning
+    requestAnimationFrame(() => {
+      onSelect(api)
+    })
+    
     api.on("reInit", onSelect)
     api.on("select", onSelect)
 
