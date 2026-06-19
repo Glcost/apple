@@ -30,7 +30,7 @@ export default function BannerCarrossel() {
             <CarouselContent>
                 {carrosselImagens.map((imagem,index)=>(
                     <CarouselItem key={index}>
-                        <div className="relative w-full bg-black h-[300px] md:h-[100vh] overflow-hidden mt-8">
+                        <div className="relative w-full h-[100vh] mt-2 ">
                             <Image
                             src={imagem.src}
                             alt={imagem.alt}
