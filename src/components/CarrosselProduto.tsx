@@ -15,7 +15,7 @@ import {
 export default function BannerCarrossel() {
     return (
         <section className="w-full bg-neutral-100 flex justify-center py-12">
-            <div className="w-full max-w-6xl px-12"> 
+            <div className="w-full max-w-6xl px-8 md:px-12"> 
                 <Carousel className="w-full relative">
                     <CarouselContent className="-ml-4">
                         
@@ -42,8 +42,8 @@ export default function BannerCarrossel() {
                     </CarouselContent>
                     
                     {/* Botões de navegação posicionados nas laterais de fora do carrossel */}
-                    <CarouselPrevious className="absolute -left-6 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-slate-800 shadow-md border-slate-200"/>
-                    <CarouselNext className="absolute -right-6 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-slate-800 shadow-md border-slate-200"/>
+                    <CarouselPrevious className="absolute left-2 md:-left-6 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-slate-800 shadow-md border-slate-200 z-10 hidden md:flex"/>
+                    <CarouselNext className="absolute right-2 md:-right-6 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-slate-800 shadow-md border-slate-200 z-10 hidden md:flex"/>
                 </Carousel>
             </div>
         </section>

@@ -28,12 +28,12 @@ export default function BannerCarrossel() {
             <CarouselContent>
                 {carrosselImagens.map((imagem,index)=>(
                     <CarouselItem key={index}>
-                        <div className="relative w-full h-[100vh] mt-2 ">
+                        <div className="relative w-full h-[60vh] md:h-[100vh] mt-2 ">
                             <Image
                             src={imagem.src}
                             alt={imagem.alt}
                             fill
-                            className="object-cover"
+                            className="object-cover md:object-contain"
                             priority={index===0}
 
                             />

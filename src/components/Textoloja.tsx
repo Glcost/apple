@@ -4,112 +4,110 @@ import Image from "next/image";
 export default function Header() {
     return (
 
-        <section className="flex flex-col justify-center items-center w-full h-[40vh] bg-white gap-10">
-            <div className="w-[90%]">
-                <div id="titulo" className="flex justify-between">
-                    <h1 className="text-6xl">iPhone</h1>
+        <section className="flex flex-col justify-center items-center w-full min-h-[30vh] bg-white gap-6 py-8">
+            <div className="w-full md:w-[90%] px-4">
+                <div id="titulo" className="flex justify-between mb-4">
+                    <h1 className="text-4xl md:text-6xl font-medium tracking-tight">iPhone</h1>
                 </div>
 
-                <nav className=" flex flex-row mt-5 h-10/12 justify-around">
-                    <div className="flex flex-col justify-center items-center">
+                <nav className="flex flex-row mt-5 gap-6 md:gap-4 overflow-x-auto snap-x hide-scrollbar pb-4 justify-start lg:justify-between w-full">
+                    <div className="flex flex-col justify-center items-center min-w-[80px] snap-center">
                         <Image
                             src="/iphones/nav_iphone_17pro.png"
-                            alt="Logo da empresa"
+                            alt="iPhone 17 Pro"
                             width={50}
                             height={50}
-                            className="h-8 w-auto object-contain"
+                            className="h-8 w-auto object-contain mb-2"
                         />
-                        <Link href={'/'}>iPhone 17 Pro</Link>
+                        <Link href={'/'} className="text-xs text-center whitespace-nowrap">iPhone 17 Pro</Link>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center min-w-[80px] snap-center">
                         <Image
                             src="/iphones/nav_iphone_air.png"
-                            alt="Logo da empresa"
+                            alt="iPhone Air"
                             width={50}
                             height={50}
-                            className="h-8 w-auto object-contain"
+                            className="h-8 w-auto object-contain mb-2"
                         />
-                        <Link href={'/'}>iPhone Air</Link>
+                        <Link href={'/'} className="text-xs text-center whitespace-nowrap">iPhone Air</Link>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center min-w-[80px] snap-center">
                         <Image
                             src="/iphones/nav_iphone_17.png"
-                            alt="Logo da empresa"
+                            alt="iPhone 17"
                             width={50}
                             height={50}
-                            className="h-8 w-auto object-contain"
+                            className="h-8 w-auto object-contain mb-2"
                         />
-                        <Link href={'/'}>iPhone 17</Link>
+                        <Link href={'/'} className="text-xs text-center whitespace-nowrap">iPhone 17</Link>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center min-w-[80px] snap-center">
                         <Image
                             src="/iphones/nav_iphone_17e.png"
-                            alt="Logo da empresa"
+                            alt="iPhone 17e"
                             width={50}
                             height={50}
-                            className="h-8 w-auto object-contain"
+                            className="h-8 w-auto object-contain mb-2"
                         />
-                        <Link href={'/'}>iPhone 17e</Link>
+                        <Link href={'/'} className="text-xs text-center whitespace-nowrap">iPhone 17e</Link>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center min-w-[80px] snap-center">
                         <Image
                             src="/iphones/nav_iphone_16.png"
-                            alt="Logo da empresa"
+                            alt="iPhone 16"
                             width={50}
                             height={50}
-                            className="h-8 w-auto object-contain"
+                            className="h-8 w-auto object-contain mb-2"
                         />
-                        <Link href={'/'}>iPhone 16</Link>
+                        <Link href={'/'} className="text-xs text-center whitespace-nowrap">iPhone 16</Link>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center min-w-[80px] snap-center">
                         <Image
                             src="/iphones/nav_accessories.png"
-                            alt="Logo da empresa"
+                            alt="Acessórios"
                             width={50}
                             height={50}
-                            className="h-8 w-auto object-contain"
+                            className="h-8 w-auto object-contain mb-2"
                         />
-                        <Link href={'/'}>Acessórios</Link>
+                        <Link href={'/'} className="text-xs text-center whitespace-nowrap">Acessórios</Link>
                     </div>
 
-
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center min-w-[80px] snap-center">
                         <Image
                             src="/iphones/nav_compare.png"
-                            alt="Logo da empresa"
+                            alt="Comparar"
                             width={50}
                             height={50}
-                            className="h-8 w-auto object-contain"
+                            className="h-8 w-auto object-contain mb-2"
                         />
-                        <Link href={'/'}>Comparar</Link>
+                        <Link href={'/'} className="text-xs text-center whitespace-nowrap">Comparar</Link>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center min-w-[80px] snap-center">
                         <Image
                             src="/iphones/nav_shop.png"
-                            alt="Logo da empresa"
+                            alt="Comprar iPhone"
                             width={50}
                             height={50}
-                            className="h-8 w-auto object-contain"
+                            className="h-8 w-auto object-contain mb-2"
                         />
-                        <Link href={'/'}>Comprar iPhone</Link>
+                        <Link href={'/'} className="text-xs text-center whitespace-nowrap">Comprar iPhone</Link>
                     </div>
 
-
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center min-w-[80px] snap-center">
                         <Image
                             src="/iphones/nav_ios.png"
-                            alt="Logo da empresa"
+                            alt="IOS"
                             width={50}
                             height={50}
-                            className="h-8 w-auto object-contain"
+                            className="h-8 w-auto object-contain mb-2"
                         />
-                        <Link href={'/'}>IOS</Link>
+                        <Link href={'/'} className="text-xs text-center whitespace-nowrap">IOS</Link>
                     </div>
                 </nav>
             </div>
