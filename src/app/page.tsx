@@ -60,7 +60,7 @@ export default function Home() {
         <Image
           src={"/img/iphone_air.png"}
           alt="Teste"
-          height={2200}
+          height={1800}
           width={1200}
           className=""
         />
