@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center gap-6 w-full max-w-4xl rounded-3xl z-10 text-center">
 
           <div className="flex flex-col justify-center items-center gap-2 md:gap-4 mt-8 md:mt-16">
-            <p className="text-black text-4xl md:text-6xl font-medium tracking-tight">iPhone 17 Pro Max</p>
+            <p className="text-black text-3xl md:text-6xl font-medium tracking-tight">iPhone 17 Pro Max</p>
             <p className="text-neutral-800 text-lg md:text-2xl font-light">Conheça a nova geração do iPhone</p>
           </div>
 
@@ -41,7 +41,7 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center gap-6 w-full max-w-4xl rounded-3xl mt-10 text-center z-10">
 
           <div className="flex flex-col justify-center items-center gap-2 md:gap-4">
-            <p className="text-[#f5f5f7] text-4xl md:text-6xl font-medium tracking-tight">iPhone Air</p>
+            <p className="text-[#f5f5f7] text-3xl md:text-6xl font-medium tracking-tight">iPhone Air</p>
             <p className="text-neutral-300 text-lg md:text-xl font-light max-w-lg">O iPhone mais fino já feito. Com a força de um Pro por dentro</p>
           </div>
 
@@ -67,9 +67,9 @@ export default function Home() {
       <section id="secao4" className="w-full grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 p-3 md:p-4 bg-neutral-50">
 
         {/* Quadrante 1: iPad Air */}
-        <div className="bg-black shadow-2xl h-[500px] md:h-[600px] flex flex-col rounded-[2rem] justify-between items-center pt-12 overflow-hidden relative group">
+        <div className="bg-black shadow-2xl h-[400px] sm:h-[500px] md:h-[600px] flex flex-col rounded-[2rem] justify-between items-center pt-8 md:pt-12 overflow-hidden relative group">
           <div className="text-center px-6 z-10">
-            <h3 className="text-neutral-100 text-3xl md:text-4xl font-semibold tracking-tight">iPad Air</h3>
+            <h3 className="text-neutral-100 text-2xl md:text-4xl font-semibold tracking-tight">iPad Air</h3>
             <p className="text-[#6e6e73] text-base mt-2">Design incrivelmente fino. Desempenho absurdo.</p>
             <div className="flex gap-3 justify-center mt-4">
               <button className="bg-neutral-200 text-black rounded-full px-6 h-10 transition-all font-medium duration-300 hover:bg-white">Learn more</button>
@@ -87,9 +87,9 @@ export default function Home() {
         </div>
 
         {/* Quadrante 2: Apple Watch */}
-        <div className="bg-white h-[500px] md:h-[600px] shadow-2xl flex flex-col justify-between items-center pt-12 rounded-[2rem] overflow-hidden relative group">
+        <div className="bg-white h-[400px] sm:h-[500px] md:h-[600px] shadow-2xl flex flex-col justify-between items-center pt-8 md:pt-12 rounded-[2rem] overflow-hidden relative group">
           <div className="text-center px-6 z-10">
-            <h3 className="text-[#1d1d1f] text-3xl md:text-4xl font-semibold tracking-tight">Watch</h3>
+            <h3 className="text-[#1d1d1f] text-2xl md:text-4xl font-semibold tracking-tight">Watch</h3>
             <p className="text-[#86868b] text-base mt-2">Inteligência avançada para sua saúde.</p>
             <div className="flex gap-3 justify-center mt-4">
               <button className="bg-black text-white rounded-full px-6 h-10 transition-all font-medium duration-300 hover:bg-neutral-800">Learn more</button>
@@ -107,9 +107,9 @@ export default function Home() {
         </div>
 
         {/* Quadrante 3: AirPods Pro 3 */}
-        <div className="bg-[#f5f5f7] h-[500px] md:h-[600px] shadow-2xl flex flex-col justify-between items-center pt-12 rounded-[2rem] overflow-hidden relative group">
+        <div className="bg-[#f5f5f7] h-[400px] sm:h-[500px] md:h-[600px] shadow-2xl flex flex-col justify-between items-center pt-8 md:pt-12 rounded-[2rem] overflow-hidden relative group">
           <div className="text-center px-6 z-10 max-w-sm">
-            <h3 className="text-[#1d1d1f] text-3xl md:text-4xl font-semibold tracking-tight">AirPods Pro 3</h3>
+            <h3 className="text-[#1d1d1f] text-2xl md:text-4xl font-semibold tracking-tight">AirPods Pro 3</h3>
             <p className="text-[#86868b] text-base mt-2 leading-tight">O melhor Cancelamento Ativo de Ruído do mundo em fones intra-auriculares.</p>
             <div className="flex gap-3 justify-center mt-4">
               <button className="bg-black text-white rounded-full px-6 h-10 transition-all font-medium duration-300 hover:bg-neutral-800">Learn more</button>
@@ -127,9 +127,9 @@ export default function Home() {
         </div>
 
         {/* Quadrante 4: MacBook Pro */}
-        <div className="bg-[#000000] h-[500px] md:h-[600px] shadow-2xl flex flex-col justify-between items-center pt-12 rounded-[2rem] overflow-hidden relative group border border-white/5">
+        <div className="bg-[#000000] h-[400px] sm:h-[500px] md:h-[600px] shadow-2xl flex flex-col justify-between items-center pt-8 md:pt-12 rounded-[2rem] overflow-hidden relative group border border-white/5">
           <div className="text-center px-6 z-10">
-            <h3 className="text-[#f5f5f7] text-3xl md:text-4xl font-semibold tracking-tight">MacBook Pro</h3>
+            <h3 className="text-[#f5f5f7] text-2xl md:text-4xl font-semibold tracking-tight">MacBook Pro</h3>
             <p className="text-[#86868b] text-base mt-2">Agora com M5, M5 Pro e M5 Max.</p>
             <div className="flex gap-3 justify-center mt-4">
               <button className="bg-white text-black rounded-full px-6 h-10 transition-all font-medium duration-300 hover:bg-neutral-200">Learn more</button>

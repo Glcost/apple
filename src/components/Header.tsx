@@ -73,7 +73,7 @@ export default function Header() {
 
       {/* Menu mobile - renderização condicional */}
       {isMenuOpen && (
-        <div className="md:hidden fixed top-12 left-0 w-full h-screen bg-black z-40 px-6 py-4 flex flex-col space-y-6 animate-in slide-in-from-top-4 duration-300">
+        <div className="md:hidden fixed top-12 left-0 w-full h-[calc(100vh-3rem)] bg-black z-40 px-6 py-6 flex flex-col space-y-6 overflow-y-auto pb-24 animate-in slide-in-from-top-4 duration-300">
           <nav className="flex flex-col space-y-4">
             <Link href="/loja" onClick={() => setIsMenuOpen(false)} className="text-xl font-semibold text-white/90 hover:text-white transition-colors border-b border-white/10 pb-4">Store</Link>
             <Link href="/mac" onClick={() => setIsMenuOpen(false)} className="text-xl font-semibold text-white/90 hover:text-white transition-colors border-b border-white/10 pb-4">Mac</Link>
@@ -87,15 +87,15 @@ export default function Header() {
 
       {/* Search Overlay Animado */}
       <div 
-        className={`fixed top-12 left-0 w-full bg-black/80 backdrop-blur-xl border-t border-white/10 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] z-40 overflow-hidden ${isSearchOpen ? 'h-auto py-8 opacity-100 visible' : 'h-0 py-0 opacity-0 invisible'}`}
+        className={`fixed top-12 left-0 w-full bg-black/80 backdrop-blur-xl border-t border-white/10 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] z-40 overflow-y-auto ${isSearchOpen ? 'h-[calc(100vh-3rem)] md:h-auto py-8 opacity-100 visible' : 'h-0 py-0 opacity-0 invisible'}`}
       >
-        <div className="max-w-[600px] mx-auto px-6">
+        <div className="max-w-[600px] mx-auto px-4 md:px-6">
           <div className="relative flex items-center">
             <Search className="absolute left-3 text-white/50" size={20} />
             <input 
               type="text" 
               placeholder="Search apple.com" 
-              className="w-full bg-transparent border-none text-white text-xl md:text-2xl font-semibold focus:outline-none placeholder:text-white/40 pl-12 pr-10 py-2"
+              className="w-full bg-transparent border-none text-white text-lg md:text-2xl font-semibold focus:outline-none placeholder:text-white/40 pl-10 pr-10 py-2"
             />
             <button 
               onClick={() => setIsSearchOpen(false)}

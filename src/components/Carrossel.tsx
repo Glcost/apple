@@ -33,7 +33,7 @@ export default function BannerCarrossel() {
                             src={imagem.src}
                             alt={imagem.alt}
                             fill
-                            className="object-cover md:object-contain"
+                            className="object-contain"
                             priority={index===0}
 
                             />

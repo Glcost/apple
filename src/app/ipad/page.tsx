@@ -15,7 +15,7 @@ export default function IpadPage() {
             iPad Pro
           </h2>
           
-          <h1 className="text-6xl md:text-9xl font-semibold tracking-tighter leading-none mb-6">
+          <h1 className="text-5xl md:text-9xl font-semibold tracking-tighter leading-none mb-6">
             Thinpossible.
           </h1>
           
@@ -94,7 +94,7 @@ export default function IpadPage() {
             { name: "iPad", desc: "The colorful, all-screen iPad for the things you do every day.", price: "From $349", color: "from-yellow-50 to-orange-50" },
             { name: "iPad mini", desc: "The full iPad experience designed to fit in one hand.", price: "From $499", color: "from-teal-50 to-emerald-50" },
           ].map((item, idx) => (
-            <div key={idx} className={`min-w-[320px] md:min-w-[400px] h-[500px] rounded-[2rem] bg-gradient-to-b ${item.color} p-10 flex flex-col snap-center border border-black/5`}>
+            <div key={idx} className={`min-w-[280px] md:min-w-[400px] h-[500px] rounded-[2rem] bg-gradient-to-b ${item.color} p-6 md:p-10 flex flex-col snap-center border border-black/5`}>
               <h3 className="text-3xl font-semibold mb-2">{item.name}</h3>
               <p className="text-lg text-neutral-600 mb-8 h-14">{item.desc}</p>
               <p className="text-xl font-medium mt-auto">{item.price}</p>

@@ -36,10 +36,10 @@ export default function AppleHeroTemplate({
         <h2 className={`text-xl md:text-2xl font-semibold tracking-wide mb-2 ${isDark ? "text-neutral-300" : "text-[#86868b]"}`}>
           {subtitle}
         </h2>
-        <h1 className="text-6xl md:text-8xl font-semibold tracking-tighter mb-6 leading-tight">
+        <h1 className="text-5xl md:text-8xl font-semibold tracking-tighter mb-4 md:mb-6 leading-tight">
           {title}
         </h1>
-        <p className={`text-xl md:text-2xl max-w-2xl font-medium mb-8 ${isDark ? "text-neutral-400" : "text-[#86868b]"}`}>
+        <p className={`text-lg md:text-2xl max-w-2xl font-medium mb-8 ${isDark ? "text-neutral-400" : "text-[#86868b]"}`}>
           {description}
         </p>
         

@@ -20,7 +20,7 @@ export default function Footer() {
         />
 
       </div>
-      <div className="max-w-[1024px] mx-auto flex flex-col gap-6">
+      <div className="max-w-[1024px] mx-auto flex flex-col gap-6 px-4 md:px-0">
         
         {/* Seção 1: Notas de rodapé / Desclamer (Padrão Apple) */}
         <section className="text-[#86868b] leading-relaxed pb-5 border-b border-[#d2d2d7] space-y-2">
@@ -29,7 +29,7 @@ export default function Footer() {
         </section>
 
         {/* Seção 2: Mapa do Site (Sitemap Grid) */}
-        <nav className="grid grid-cols-2 md:grid-cols-5 gap-6 py-4">
+        <nav className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-6 py-4 px-4 md:px-0">
           <div className="flex flex-col gap-3">
             <h4 className="text-[#1d1d1f] font-semibold tracking-tight">Descobrir e Comprar</h4>
             <ul className="flex flex-col gap-2">
