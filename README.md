@@ -94,7 +94,3 @@ Este projeto foi desenvolvido seguindo estritamente conceitos avançados de arqu
 *Nota: Este é um projeto educacional feito por fãs e não possui qualquer afiliação com a Apple Inc. Todos os nomes de produtos, logotipos e marcas são de propriedade de seus respectivos donos.*
 
 ---
-
-### Como usar:
-
-Basta copiar o conteúdo do bloco acima e substituir o texto do seu arquivo `README.md` na raiz do projeto.
